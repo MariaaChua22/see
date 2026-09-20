@@ -1,0 +1,95 @@
+:root {
+    --sidebar-color: #63affc;
+    --sidebar-hover: #495057;
+    --page-background: #f4f6f9;
+    --text-light: #ffffff;
+    --text-muted: #cfd4da;
+    --card-shadow: rgba(0, 0, 0, 0.08);
+}
+
+/* Entire page */
+body {
+    background-color: var(--page-background);
+    font-family: Arial, sans-serif;
+}
+
+/* Dark left sidebar */
+.sidebar {
+    min-height: 100vh;
+    background-color: var(--sidebar-color);
+    color: var(--text-light);
+}
+
+/* Sidebar heading */
+.sidebar-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Sidebar navigation links */
+.sidebar .nav-link {
+    color: var(--text-light);
+    font-weight: 600;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+    border-radius: 8px;
+}
+
+/* Changes when the mouse is over a link */
+.sidebar .nav-link:hover {
+    background-color: #c7dff8;
+    color: var(--text-light);
+} 
+
+/* Current active page */
+.sidebar .nav-link.active {
+    background-color: var(--text-light);
+    color: #212529;
+    text-align: center;
+}
+
+
+/* Main content area */
+.content-area {
+    background-color: var(--page-background);
+}
+
+/* Cards */
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px var(--card-shadow);
+}
+
+/* Card and table headers */
+.card-header-custom,
+.table thead th {
+    background-color: var(--sidebar-color);
+    color: var(--text-light);
+}
+
+/* Rounded top card header */
+.card-header-custom {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Page headings */
+.page-title {
+    color: var(--sidebar-color);
+    font-weight: bold;
+}
+
+/* Footer design */
+.site-footer {
+    color: #6c757d;
+    margin-top: 40px;
+}
+
+.site-footer hr {
+    border-color: #ced4da;
+}
+
+.site-footer p {
+    color: var(--sidebar-color);
+}
