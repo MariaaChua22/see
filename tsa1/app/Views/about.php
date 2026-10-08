@@ -5,6 +5,9 @@
         <p>
              The Tasks for Today Management System is a CodeIgniter application
             designed to organize and display daily tasks.
+
+        <p> 
+            Developer: <strong>Ma. Allison Grace See</strong>
         </p>
     </div>
 </div>
